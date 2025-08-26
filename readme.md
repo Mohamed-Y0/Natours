@@ -10,7 +10,9 @@
 
 ---
 
-### How CSS Works A Look Behind the Scenes
+## Theory Lectures
+
+### #1 - How CSS Works A Look Behind the Scenes.
 
 **1. CSS Behind the Scenes (Overview)**
 
@@ -36,3 +38,60 @@ Layout & Visual Formatting Model:
 Painting & Rendering:
 
 - Final **rendered website** is drawn on the screen.
+
+---
+
+### #2 - Introduction to Sass & NPM.
+
+**1. What Is Sass**
+
+Sass: is a CSS preprocessor, an extension of CSS that
+adds power and elegance to the basic language.
+
+- SASS Source Code ---Sass Compiler---> Compiled CSS Code
+
+Main Features:
+
+- Variables: for reusable values such as colors, font-sizes, spacing, etc.
+
+- Nesting: to nest selectors inside of one another, allowing us to write less code.
+
+- Operators: for mathematical operations right inside of CSS.
+
+- Partials and imports: to write CSS in different files and importing them all into one single file.
+
+- Mixins: to write reusable pieces of CSS code.
+
+- Functions: similar to mixins, with the difference that they produce a value that can than be used.
+
+- Extends: to make different selectors inherit declarations that are common to all of them.
+
+- Control directives: for writing complex code using conditionals and loops (not covered in this course).
+
+Syntax:
+
+- SASS Syntax
+
+```sass
+.nav
+  list-style: none
+  display: flex
+
+  & li
+    font-size: 18px
+    margin-left: 30px
+```
+
+- SCSS Syntax
+
+```scss
+.nav {
+  list-style: none;
+  display: flex;
+
+  & li {
+    font-size: 18px;
+    margin-left: 30px;
+  }
+}
+```
