@@ -45,8 +45,7 @@ Painting & Rendering:
 
 **1. What Is Sass**
 
-Sass: is a CSS preprocessor, an extension of CSS that
-adds power and elegance to the basic language.
+Sass: CSS preprocessor that extends CSS by adding features like variables, nesting, and mixins, which make web styling more efficient and manageable
 
 - SASS Source Code ---Sass Compiler---> Compiled CSS Code
 
