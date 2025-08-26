@@ -8,6 +8,10 @@
 
 1. `clip-path`: Property creates a clipping region that sets what part of an element should be shown. Parts that are inside the region are shown, while those outside are hidden.
 
+2. `$color-primary: #333` To Define Color Variable in SCSS, To use it `color: $primary-color;`
+
+3. `lighten()` and `darken()`: Sass provides built-in functions, to adjust the lightness of a color. These functions are particularly useful for creating color variations, such as hover states or different shades within a color palette.
+
 ---
 
 ## Theory Lectures
