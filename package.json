@@ -1,0 +1,23 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "**Natours** is a modern, responsive landing page for a fictional nature tour company, built using advanced CSS techniques. It features smooth animations, a background video, interactive cards, a dynamic form, and a fixed navigation bar, all designed to teach cutting-edge CSS - SASS.",
+  "homepage": "https://github.com/Mohamed-Y0/Natours#readme",
+  "bugs": {
+    "url": "https://github.com/Mohamed-Y0/Natours/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamed-Y0/Natours.git"
+  },
+  "license": "ISC",
+  "author": "Mohamed",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/style.css -w"
+  },
+  "devDependencies": {
+    "sass": "^1.91.0"
+  }
+}
