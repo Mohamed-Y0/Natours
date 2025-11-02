@@ -102,3 +102,104 @@ Syntax:
 ---
 
 ### Advanced CSS & SASS.
+
+---
+
+### What I learned
+
+**This lecture explains how to organize Sass files into a scalable, professional folder structure used in real-world projects.**
+The focus is on maintainability, clean structure, and importing partial Sass files into one main file.
+
+1. **SASS Architecture Goal:**
+   Organize all Sass code into multiple folders and partial files, then import them into a single main Sass file for maintainability.
+
+2. **Partial Files (`_file.scss`):**
+   Files that start with `_` are _partials_ — they are not compiled into CSS alone, but imported into a main file.
+
+3. **Main Entry File (`main.scss`):**
+   The only Sass file compiled to CSS — used to import all partials.
+
+4. **Folder Structure Concept:**
+   Sass files should be grouped into folders such as:
+
+   - `base/` (resets, typography, global styles)
+   - `layout/` (header, footer, grid, navigation)
+   - `components/` (buttons, cards, forms)
+   - `abstracts/` (variables, mixins, functions)
+   - `pages/` (page-specific styles)
+   - `themes/` (optional for color themes)
+   - `vendors/` (external libraries)
+
+5. **Imports:**
+   Use `@import` (or modern `@use` / `@forward`) to load partials into the main file.
+
+6. **Maintainability is Key:**
+   Folder structure ensures scalability, readability, and easy collaboration for professional CSS/Sass development.
+
+---
+
+## Theory Lectures
+
+### #1 - Why We Use SASS Architecture
+
+**1. Goal of Architecture**
+
+- Keep code **organized, clean, and scalable**
+- Avoid one giant stylesheet
+- Make maintenance easier as project grows
+- Follow professional standards used in real projects
+
+---
+
+### #2 - Folder Structure & Partial Setup
+
+**Step-by-Step Concept**
+
+- Create a main `sass` folder
+- Inside it, create structure such as:
+
+```
+sass/
+ ├─ abstracts/
+ │   ├─ _variables.scss
+ │   ├─ _mixins.scss
+ │   └─ _functions.scss
+ ├─ base/
+ │   ├─ _base.scss
+ │   ├─ _reset.scss
+ │   └─ _typography.scss
+ ├─ layout/
+ │   ├─ _header.scss
+ │   ├─ _footer.scss
+ │   └─ _grid.scss
+ ├─ components/
+ ├─ pages/
+ └─ main.scss
+```
+
+- Each file handles a **specific responsibility**
+- Every folder contains partial files (`_file.scss`)
+- Import all partials into `main.scss`
+
+---
+
+### #3 - Imports
+
+- Use imports to bring everything together
+- Example:
+
+```scss
+@use "abstracts/variables";
+@use "abstracts/mixins";
+@use "base/base";
+@use "layout/header";
+@use "components/buttons";
+```
+
+---
+
+### Advanced CSS & SASS.
+
+The lecture emphasizes that structuring Sass properly is essential for **professional-level CSS development** and working in teams/projects.
+
+---
