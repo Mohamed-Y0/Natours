@@ -103,8 +103,6 @@ Syntax:
 
 ### Advanced CSS & SASS.
 
----
-
 ### What I learned
 
 **This lecture explains how to organize Sass files into a scalable, professional folder structure used in real-world projects.**
@@ -195,11 +193,5 @@ sass/
 @use "layout/header";
 @use "components/buttons";
 ```
-
----
-
-### Advanced CSS & SASS.
-
-The lecture emphasizes that structuring Sass properly is essential for **professional-level CSS development** and working in teams/projects.
 
 ---
